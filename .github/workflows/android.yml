@@ -23,4 +23,4 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x ./Hin2n_android/gradlew
     - name: Build with Gradle
-      run: ./Hin2n_android/gradlew build
+      run: cd Hin2n_android && gradlew build
